@@ -2,29 +2,28 @@
 vpn 使用文档
 ====
 ## VPN连接方法
-* 1、打开开始菜单，选择网络与internet。
-    ![P1]
-* 2、在左边菜单栏选择VPN。
+* 打开开始菜单，选择网络与internet。
+    ![正反面svg效果图](![img](file:///C:\Users\Administrator\AppData\Roaming\Tencent\QQ\Temp\[5UQ[BL(6~BS2JV6W}N6[%S.png)https://github.com/Arya11111/DFRobot_MCP23017/blob/master/resources/images/SEN0245svg1.png)
+* 在左边菜单栏选择VPN。
     ![P2]
-* 3、选择添加VPN连接。
+* 选择添加VPN连接。
     ![P3]
-* 4、选择Windows内置。
+* 选择Windows内置。
     ![P4]
-* 5、依次输入连接名称和服务器地址。
+* 依次输入连接名称和服务器地址。
     ![P5]
-* 6、VPN类型选择使用预共享密钥的L2TP/IPsec。
+* VPN类型选择使用预共享密钥的L2TP/IPsec。
     ![P6]
-* 7、然后依次填入秘钥、用户名和密码。
+* 然后依次填入秘钥、用户名和密码。
     ![P7]
 ## 一直连接不上解决方法
-* 1、修改注册表，按下win+R键，输入regedit,打开注册表。
+* 修改注册表，按下win+R键，输入regedit,打开注册表。
     ![P8]
-* 2、找到HKEY_LOCAL_MACHINE \SYSTEM \CurrentControlSet\ Services\ RasMan \Parameters下的ProhibitIPSec,若没有则创建。
+* 找到HKEY_LOCAL_MACHINE \SYSTEM \CurrentControlSet\ Services\ RasMan \Parameters下的ProhibitIPSec,若没有则创建。
     ![P9]
-* 3、鼠标右键新建，选择DWORD值。
-* 4、双击ProhibitIPSec,修改数值为1，点击确认，退出注册表编辑器，重启电脑。
+* 鼠标右键新建，选择DWORD值。
+* 双击ProhibitIPSec,修改数值为1，点击确认，退出注册表编辑器，重启电脑。
     ![P10]
-	
 [P1]:(https://github.com/zhaofei1231/vpn/blob/main/picture/1.png)
 [P2]:(https://github.com/zhaofei1231/vpn/blob/main/picture/2.png)
 [P3]:(https://github.com/zhaofei1231/vpn/blob/main/picture/3.png)
